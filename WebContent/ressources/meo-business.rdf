@@ -1,0 +1,59 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:igeo="http://rdf.insee.fr/def/geo#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:lode="http://linkedevents.org/ontology/"
+    xmlns:oa="http://www.w3.org/ns/oa#"
+    xmlns:mo="http://purl.org/ontology/mo/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:meo="http://www.musicevents.com/#"
+    xmlns:gps="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <meo:DataBusiness rdf:about="http://www.musicevents.com/#4">
+    <meo:tagg></meo:tagg>
+    <oa:annotatedAt>2014-01-21T21:28:56.465Z</oa:annotatedAt>
+    <foaf:mail>yy@sina.com</foaf:mail>
+    <foaf:name>yassine</foaf:name>
+    <meo:annotation>je veux bien aller la voir</meo:annotation>
+    <meo:numAnno>4</meo:numAnno>
+    <gps:lat>43.6109</gps:lat>
+    <gps:lgt>3.8772</gps:lgt>
+    <meo:EvenementMusical>Lara Fabian</meo:EvenementMusical>
+  </meo:DataBusiness>
+  <meo:DataBusiness rdf:about="http://www.musicevents.com/#3">
+    <meo:numAnno>3</meo:numAnno>
+    <oa:annotatedAt>2014-01-21T15:18:59.272Z</oa:annotatedAt>
+    <foaf:mail>vigno@sina.com</foaf:mail>
+    <meo:EvenementMusical>Woodkid</meo:EvenementMusical>
+    <gps:lgt>3.8772</gps:lgt>
+    <meo:tagg></meo:tagg>
+    <foaf:name>gao</foaf:name>
+    <meo:annotation>C'est genial!!!!!!!j'ai trop aime</meo:annotation>
+    <gps:lat>43.6109</gps:lat>
+  </meo:DataBusiness>
+  <meo:DataBusiness rdf:about="http://www.musicevents.com/#2">
+    <foaf:name>gao</foaf:name>
+    <gps:lat>43.6109</gps:lat>
+    <foaf:mail>vigno@sina.com</foaf:mail>
+    <meo:annotation>C'est pas mal je suis chaud pour y etre!!!</meo:annotation>
+    <meo:numAnno>2</meo:numAnno>
+    <meo:EvenementMusical>Anthony Alborghetti</meo:EvenementMusical>
+    <meo:tagg></meo:tagg>
+    <oa:annotatedAt>2014-01-21T15:15:15.515Z</oa:annotatedAt>
+    <gps:lgt>3.8772</gps:lgt>
+  </meo:DataBusiness>
+  <meo:DataBusiness rdf:about="http://www.musicevents.com/#1">
+    <meo:numAnno>1</meo:numAnno>
+    <oa:annotatedAt>2014-01-21T15:15:15.515Z</oa:annotatedAt>
+    <foaf:mail>vigno@sina.com</foaf:mail>
+    <meo:EvenementMusical>Lara Fabian</meo:EvenementMusical>
+    <meo:tagg></meo:tagg>
+    <gps:lgt>3.8772</gps:lgt>
+    <gps:lat>43.6109</gps:lat>
+    <meo:annotation>Si tu n'est pas en couple, ce n'est pas la peine de partir ;)</meo:annotation>
+    <foaf:name>gao</foaf:name>
+  </meo:DataBusiness>
+</rdf:RDF>

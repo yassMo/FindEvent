@@ -1,0 +1,22 @@
+<div ng-include="'template/header.html'"></div>
+<div class="evenements">
+	<div class="acenter">
+		<div>
+			<textarea ng-model="strRequete" style="width:800px; height:300px;"></textarea>
+		</div>
+		
+		<div>
+			<button ng-click="processRequete()" class="btn btn-primary margin-small">
+	      		<i class="fa fa-puzzle-piece"></i> Requeter
+	      	</button>
+		</div>
+	
+		<div ng-if="dataAnnotation.length==0">
+			<p style="color:red; font-size:20px">Il n'y a pas de données trouvés</p>
+		</div>
+		
+		<div ng-if="dataAnnotation.length>0">
+			<div ng-grid="gridOptions" class="gridStyle"></div>
+		</div>
+	</div>
+</div>
